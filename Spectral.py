@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Spyder Editor
 
 @author: Alexandre Nuyt et Axel Guerlus
 
