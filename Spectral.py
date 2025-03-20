@@ -1,6 +1,19 @@
 """
+Simulation de la Propagation des Solitons et Analyse des Erreurs Numériques
 
-@author: Alexandre Nuyt et Axel Guerlus
+Auteur : Alexandre Nuyt et Axel Guerlus
+
+Ce script simule la propagation de solitons à l'aide de la méthode de Fourier pour la résolution numérique des équations aux dérivées partielles.
+
+### Fonctionnalités principales :
+- Définition des paramètres physiques du système (constantes, longueur d'onde, pas de temps, etc.).
+- Implémentation de la transformation de Fourier pour résoudre numériquement l'évolution des solitons.
+- Comparaison entre solutions analytiques et numériques.
+- Visualisation des résultats sous forme de graphiques et d'animations.
+- Évaluation de l'erreur entre solutions analytiques et numériques pour différentes valeurs de dt.
+
+### Applications :
+Ce programme permet d'étudier la stabilité des schémas numériques appliqués à la propagation de solitons, un phénomène crucial en physique non linéaire et en optique.
 
 """
 
@@ -248,8 +261,3 @@ plt.xlabel("Temps (s)", fontsize = 20)
 plt.ylabel("Erreur (m)", fontsize = 20)
 
 plt.show()
-
-
-
-
-
