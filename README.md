@@ -1,15 +1,15 @@
-#  Équation de Korteweg-de Vries et Solitons (Méthode Spectrale)
-Ce projet, réalisé en groupe dans le cadre du cours **LPHYS1303**, utilise une **méthode spectrale** pour résoudre numériquement l'**équation de Korteweg-de Vries (KdV)**, qui modélise la propagation des **solitons**.
+# Korteweg-de Vries Equation and Solitons (Spectral Method)
+This project, carried out in groups as part of the **LPHYS1303** course, uses a **spectral method** to numerically solve the **Korteweg-de Vries (KdV) equation**, which models the propagation of **solitons**.
 ## Description
-L’**équation de Korteweg-de Vries (KdV)** est une **équation aux dérivées partielles non linéaire** représentant l'évolution d'une onde solitaire en milieu dispersif. Ce projet vise à :
-- Implémenter une **méthode spectrale** basée sur la **transformée de Fourier**.
-- Simuler la propagation de deux **solitons** et observer leur interaction.
-- Comparer la solution numérique avec la solution analytique.
-- Évaluer l’**erreur quadratique** moyenne entre les solutions.
-## Utilisation
-Exécutez le script pour observer la propagation des solitons : [Spectral.py](Spectral.py)
-## Résultats
-- **Simulation de la propagation des solitons :** visualisation de leur déplacement et interaction.
-- **Étude de la collision :** analyse des modifications des solitons après interaction.
-- **Comparaison numérique vs analytique :** mise en évidence des écarts dus aux termes non linéaires.
-- **Erreur quadratique moyenne :** mesure de la divergence entre les solutions analytiques et numériques.
+The **Korteweg-de Vries (KdV) equation** is a **non-linear partial differential equation** representing the evolution of a solitary wave in a dispersive medium. This project aims to:
+- Implement a **spectral method** based on the **Fourier transform**.
+- Simulate the propagation of two **solitons** and observe their interaction.
+- Compare the numerical solution with the analytical solution.
+- Evaluate the mean **quadratic error** between the solutions.
+## Usage
+Run the script to observe the propagation of solitons: [Spectral.py](Spectral.py)
+## Results
+- **Simulation of soliton propagation:** visualisation of their movement and interaction.
+- **Study of the collision:** analysis of changes in the solitons after interaction.
+- **Numerical vs analytical comparison:** highlighting of discrepancies due to non-linear terms.
+- **Mean square error:** measurement of the divergence between the analytical and numerical solutions.
