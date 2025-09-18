@@ -1,5 +1,5 @@
 # Korteweg-de Vries Equation and Solitons (Spectral Method)
-This project, carried out in groups as part of the **LPHYS1303** course, uses a **spectral method** to numerically solve the **Korteweg-de Vries (KdV) equation**, which models the propagation of **solitons**.
+This project, carried out in group as part of the **LPHYS1303** course, uses a **spectral method** to numerically solve the **Korteweg-de Vries (KdV) equation**, which models the propagation of **solitons**.
 ## Description
 The **Korteweg-de Vries (KdV) equation** is a **non-linear partial differential equation** representing the evolution of a solitary wave in a dispersive medium. This project aims to:
 - Implement a **spectral method** based on the **Fourier transform**.
